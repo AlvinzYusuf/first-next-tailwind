@@ -13,7 +13,7 @@ function Button({ href, className, variant, children, pill }) {
     <a
       href={href}
       className={classnames(
-        "transition py-3 px-10 font-semibold text-lg inline-block",
+        "transition py-3 px-10 font-semibold font-poppins text-lg inline-block",
         pill && "rounded-full",
         pickedVariant,
         className

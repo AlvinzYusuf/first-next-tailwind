@@ -1,10 +1,10 @@
 import React from "react";
 
-function Sectiontitle({ children, left }) {
+function Sectiontitle({ left, children }) {
   return (
     <h2
       className={`text-2xl font-semibold font-poppins${
-        left ? "text-center" : ""
+        !left ? " text-center" : ""
       }`}
     >
       {children}

@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className="flex items-center py-10">
       <div className="w-3/12">
-        <div className="text-2xl font-semibold uppercase tracking-widest text-white">
+        <div className="text-2xl font-semibold font-poppins uppercase tracking-widest text-white">
           Logo
         </div>
       </div>
