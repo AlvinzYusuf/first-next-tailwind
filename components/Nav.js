@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 function Nav({ scheme, dir }) {
   const dirs = {
-    horizontal: "justify-center space-x-10",
+    horizontal: "justify-center space-x-10 font-poppins",
     vertical: "flex-col space-y-6",
   };
 
