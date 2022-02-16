@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 
 function NavItem({ href, scheme, children }) {
   const schemes = {
@@ -11,7 +12,7 @@ function NavItem({ href, scheme, children }) {
     <li>
       <a
         href={href}
-        className={classnames("text-lg transition font-semibold", pickedScheme)}
+        className={classNames("text-lg transition font-semibold", pickedScheme)}
       >
         {children}
       </a>

@@ -1,5 +1,6 @@
 import React from "react";
 import NavItem from "./NavItem";
+import classNames from "classnames";
 
 function Nav({ scheme, dir }) {
   const dirs = {
@@ -9,7 +10,7 @@ function Nav({ scheme, dir }) {
 
   const pickedDir = dirs[dir];
   return (
-    <ul className={classnames("flex", pickedDir)}>
+    <ul className={classNames("flex", pickedDir)}>
       <NavItem scheme={scheme} href="#profile">
         Profile
       </NavItem>

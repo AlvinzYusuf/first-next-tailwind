@@ -1,3 +1,4 @@
+const plugin = require("tailwindcss/plugin");
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -12,5 +13,19 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({
+        ".bg-hero": {
+          "background-image": "url(/hero.png)",
+          "background-size": "cover",
+          "background-position": "bottom",
+          "background-repeat": "no-repeat",
+        },
+        ".shadow-skill": {
+          "box-shadow": "0px 15px 30px rgba(0, 0, 0, 0.1)",
+        },
+      });
+    }),
+  ],
 };
