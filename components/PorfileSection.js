@@ -5,7 +5,7 @@ import Sectiontitle from "./Sectiontitle";
 
 function PorfileSection() {
   return (
-    <section className="py-28">
+    <section className="py-28" id="profile">
       <div className="container mx-auto px-10 2xl:px-0">
         <Sectiontitle>Profile</Sectiontitle>
         <SectionSubTitle>Mengenal saya secara singkat.</SectionSubTitle>

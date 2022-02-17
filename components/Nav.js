@@ -14,10 +14,10 @@ function Nav({ scheme, dir }) {
       <NavItem scheme={scheme} href="#profile">
         Profile
       </NavItem>
-      <NavItem scheme={scheme} href="#skills">
+      <NavItem scheme={scheme} href="#skill">
         Skills
       </NavItem>
-      <NavItem scheme={scheme} href="#projects">
+      <NavItem scheme={scheme} href="#project">
         Projects
       </NavItem>
       <NavItem scheme={scheme} href="#contact">
