@@ -1,3 +1,4 @@
+import ContactSection from "../components/ContactSection";
 import Hero from "../components/Hero";
 import PorfileSection from "../components/PorfileSection";
 import ProjectSection from "../components/ProjectSection";
@@ -10,6 +11,7 @@ export default function Home() {
       <PorfileSection />
       <SkillSection />
       <ProjectSection />
+      <ContactSection />
     </>
   );
 }

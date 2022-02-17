@@ -4,7 +4,7 @@ import SectionSubTitle from "./SectionSubTitle";
 import SkillCard from "./SkillCard";
 function SkillSection() {
   return (
-    <section className="py-28 bg-primarygray" id="skills">
+    <section className="py-28 bg-primarygray" id="skill">
       <div className="container mx-auto px-10 2xl:px-0">
         <Sectiontitle>Skills</Sectiontitle>
         <SectionSubTitle>Beberapa kemampuan saya.</SectionSubTitle>
